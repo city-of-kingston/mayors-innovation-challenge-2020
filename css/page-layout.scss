@@ -3,6 +3,7 @@ html, body, #__next {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	font-family: Arial;
 }
 
 .page-container {
@@ -25,6 +26,10 @@ html, body, #__next {
 			flex-grow: 1;
 			height: 100%;
 			overflow: auto;
+			box-sizing: border-box;
+			padding-left: 50px;
+			padding-right: 50px;
+			padding-bottom: 25vh;
 		}
 
 		.sidebar {
@@ -34,11 +39,19 @@ html, body, #__next {
 
 			ul.links {
 				align-self: stretch;
-				
+				width: 80px;
+
 				display: flex;
 				flex-direction: column;
 				justify-content: space-evenly;
 				list-style: none;
+
+				li {
+					&.active {
+						color: red;
+						font-weight: bold;
+					}
+				}
 			}
 
 			.nav-slider {
@@ -53,7 +66,7 @@ html, body, #__next {
 				.dot {
 					stroke-width: 15;
 					stroke-dasharray: 1, 1000;
-					stroke-dashoffset: -100;
+					// stroke-dashoffset: -100;
 					stroke-linecap: round;
 					transition: stroke-dashoffset 1s ease;
 				}
