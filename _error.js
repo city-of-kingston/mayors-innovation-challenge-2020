@@ -2619,7 +2619,7 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_4___n
         buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_3__,
         reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
         canonicalBase: "",
-        buildId: "HtZPcPqE3rdRA1xlEhSQf",
+        buildId: "4XC7J_Rfm0BMI_A2VBkvr",
         dynamicBuildId: false,
         assetPrefix: "",
         ampBindInitData: false
@@ -4092,7 +4092,7 @@ module.exports = __webpack_require__("UDep");
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/css/styles.64527ed0.chunk.css\",\"static/chunks/styles.321c6464f0133df5b7cd.js\",\"static/runtime/main-aa422b4d57183f705783.js\"],\"/_app\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/runtime/main-aa422b4d57183f705783.js\"],\"/_error\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/runtime/main-aa422b4d57183f705783.js\"],\"/index\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/css/styles.64527ed0.chunk.css\",\"static/chunks/styles.321c6464f0133df5b7cd.js\",\"static/runtime/main-aa422b4d57183f705783.js\"]}}");
+module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/css/styles.a38f2d71.chunk.css\",\"static/chunks/styles.321c6464f0133df5b7cd.js\",\"static/runtime/main-aa422b4d57183f705783.js\"],\"/_app\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/runtime/main-aa422b4d57183f705783.js\"],\"/_error\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/runtime/main-aa422b4d57183f705783.js\"],\"/index\":[\"static/runtime/webpack-f5e50b6b501ccea2a79b.js\",\"static/chunks/commons.9a8488b848e21cfcc765.js\",\"static/css/styles.a38f2d71.chunk.css\",\"static/chunks/styles.321c6464f0133df5b7cd.js\",\"static/runtime/main-aa422b4d57183f705783.js\"]}}");
 
 /***/ }),
 
