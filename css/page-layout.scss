@@ -1,9 +1,11 @@
+$brand-red: #d33e51;
+$brand-teal: #34aea9;
+
 html, body, #__next {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	font-family: Arial;
 }
 
 .page-container {
@@ -13,6 +15,42 @@ html, body, #__next {
 
 	.header {
 		width: 100%;
+		display: flex;
+		justify-content: center;
+		position: relative;
+
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: -20px;
+			height: 20px;
+			width: 100%;
+			background: linear-gradient(white, transparent);
+			pointer-events: none;
+		}
+
+		.svg-container {
+			flex-grow: 1;
+			position: relative;
+			overflow: hidden;
+
+			svg {
+				position: absolute;
+				bottom: 0;
+			}
+
+			&.left > svg {
+				right: 0;
+			}
+
+			&.right > svg {
+				left: 0;
+			}
+		}
+
+		.logo {
+			max-height: 200px;
+		}
 	}
 
 	.content-container {
@@ -27,9 +65,14 @@ html, body, #__next {
 			height: 100%;
 			overflow: auto;
 			box-sizing: border-box;
-			padding-left: 50px;
-			padding-right: 50px;
+			padding-left: 10vw;
+			padding-right: 10vw;
+			padding-top: 5vh;
 			padding-bottom: 25vh;
+
+			section {
+				margin-bottom: 100px;
+			}
 		}
 
 		.sidebar {
@@ -40,6 +83,7 @@ html, body, #__next {
 			ul.links {
 				align-self: stretch;
 				width: 80px;
+				margin: 0;
 
 				display: flex;
 				flex-direction: column;
@@ -47,8 +91,11 @@ html, body, #__next {
 				list-style: none;
 
 				li {
+					cursor: pointer;
+					color: #333;
+
 					&.active {
-						color: red;
+						color: $brand-red;
 						font-weight: bold;
 					}
 				}
@@ -56,7 +103,7 @@ html, body, #__next {
 
 			.nav-slider {
 				.line, .dot {
-					stroke: red;
+					stroke: $brand-red;
 				}
 
 				.line {
