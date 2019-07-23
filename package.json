@@ -28,6 +28,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scroll": "^1.7.12",
-    "react-scroll-trigger": "^0.5.3"
+    "react-scroll-trigger": "^0.5.3",
+    "reactstrap": "^8.0.1"
   }
 }

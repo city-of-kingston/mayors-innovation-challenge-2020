@@ -6,6 +6,11 @@ html, body, #__next {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	font-family: Arial, Helvetica, sans-serif
+
+}
+p {
+	font-size: 16px;
 }
 
 .page-container {
@@ -82,7 +87,7 @@ html, body, #__next {
 
 			ul.links {
 				align-self: stretch;
-				width: 80px;
+				width: 100px;
 				margin: 0;
 
 				display: flex;
