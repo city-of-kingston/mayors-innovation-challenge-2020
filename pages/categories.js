@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
-import PageContent, { challenges } from '../content/catagories.mdx';
+import PageContent, { challenges } from '../content/categories.mdx';
 import { Accordion, AccordionItem } from '../components/Accordion';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/page-layout.scss';
+import '../css/accordion.scss';
 import { Row, Col } from 'reactstrap';
 
 
-export default class Catagories extends Component {
+export default class Categories extends Component {
 	constructor(props) {
 		super(props);
 	}
@@ -69,7 +70,7 @@ export default class Catagories extends Component {
 						<PageContent />
 						<Row style={{ position: 'relative', float: 'left', marginTop: '50px', left: '15%'}}>
 							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482928&t=1506624596877' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/Catagories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
+							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/Categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
 							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/Workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
 							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/SubmitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
 						</Row>

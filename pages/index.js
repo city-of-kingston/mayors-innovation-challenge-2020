@@ -137,7 +137,7 @@ export default class Home extends Component {
 					<div className="content" id="scroll-container" ref={this.scrollContainer}>
 						<PageContent />
 						<Row>
-							<Col sm={4} style={{padding: '0px'}}><a href='https://city-of-kingston.github.io/mayors-innovation-challenge-2020/Catagories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
+							<Col sm={4} style={{padding: '0px'}}><a href='https://city-of-kingston.github.io/mayors-innovation-challenge-2020/categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
 							<Col sm={4} style={{padding: '0px'}}><a href='http://localhost:3000/Workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
 							<Col sm={4} style={{padding: '0px'}}><a href='http://localhost:3000/SubmitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
 						</Row>
