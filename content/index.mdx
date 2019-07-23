@@ -1,4 +1,6 @@
-import ScrollHeader, { bindScrollTriggerCallback as cb } from '../components/ScrollHeader'
+import ScrollHeader, { bindScrollTriggerCallback as cb } from '../components/ScrollHeader';
+import { Illustration } from 'react-zdog';
+import CityHallZdog from 'city-hall-zdog';
 
 export const bindScrollTriggerCallback = cb;
 export const headers = [
@@ -18,6 +20,10 @@ major post-secondary institutions to develop innovative proposals to address an 
 faced by the City of Kingston. The City, in partnership with Queen's University, St. Lawrence College
 and the Royal Military College, has the honour of continuing to host this collaborative problem-solving
 platform and experiential learning opportunity for its second year.
+
+<Illustration key="city-hall-zdog" style={{height: '400px'}} translate={{y: 50}} element="canvas">
+	<CityHallZdog />
+</Illustration>
 
 Kingston faces a series of complex challenges as we work toward our vision of becoming a smart,
 livable, 21st century city and is seeking solutions from student innovators.
