@@ -69,8 +69,8 @@ export default class Categories extends Component {
 					<div className="content" id="scroll-container" ref={this.scrollContainer}>
 						<PageContent />
 						<Row style={{ position: 'relative', float: 'left', marginTop: '50px', left: '15%'}}>
-							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482928&t=1506624596877' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/Categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
+							<Col xs={2} style={{padding: '0px'}}><a href='https://city-of-kingston.github.io/mayors-innovation-challenge-2020/'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482928&t=1506624596877' width='100%'/></a></Col>
+							<Col xs={2} style={{padding: '0px'}}><a href='https://city-of-kingston.github.io/mayors-innovation-challenge-2020/categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
 							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/Workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
 							<Col xs={2} style={{padding: '0px'}}><a href='http://localhost:3000/SubmitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
 						</Row>
