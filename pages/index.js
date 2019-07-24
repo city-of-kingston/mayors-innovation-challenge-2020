@@ -107,7 +107,7 @@ export default class Home extends Component {
 							</g>
 						</svg>
 					</div>
-					<a href='/'><img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/></a>
+					<a href='/mayors-innovation-challenge-2020/'><img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/></a>
 					<div className="svg-container right">
 						<svg height="200%" viewBox="50 0 400 200" preserveAspectRatio="xMaxYMax">
 							{/*<rect x={0} y={0} width={600} height={200}
