@@ -60,6 +60,23 @@ p {
       padding-bottom: 25vh; }
       .page-container .content-container .content section {
         margin-bottom: 100px; }
+    .page-container .content-container .workshop-content {
+      flex-grow: 1;
+      height: 100%;
+      overflow: auto;
+      box-sizing: border-box;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      padding-top: 5vh; }
+    .page-container .content-container .submit-proposal-content {
+      flex-grow: 1;
+      height: 100%;
+      overflow: auto;
+      box-sizing: border-box;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      padding-top: 5vh;
+      padding-bottom: 5vh; }
     .page-container .content-container .sidebar {
       display: flex;
       flex-direction: row;
@@ -87,4 +104,13 @@ p {
         stroke-dasharray: 1, 1000;
         stroke-linecap: round;
         transition: stroke-dashoffset 1s ease; }
+
+h4, h3, h2 {
+  color: #34aea9;
+  font-weight: 600; }
+
+.submit-proposal {
+  margin-inline-start: 35%;
+  background-color: #d33e51;
+  border-color: #d33e51; }
 
