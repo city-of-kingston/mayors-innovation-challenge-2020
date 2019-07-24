@@ -66,7 +66,7 @@ export default class SubmitProposal extends Component {
 					</div>
 					<div className="submit-proposal-content" id="scroll-container" ref={this.scrollContainer}>
 						<PageContent />
-						<a href='/submissionForm'><Button className="submit-proposal"> {buttonText} </Button></a>
+						<a href='/mayors-innovation-challenge-2020/submissionForm'><Button className="submit-proposal"> {buttonText} </Button></a>
 
 					</div>
 				</div>
