@@ -82,7 +82,7 @@ export default class Home extends Component {
 			<div className="page-container">
 				<div className="header">
 					<div className="svg-container left">
-						<svg height="200%" viewBox="0 0 600 200" preserveAspectRatio="xMinYMax">
+						<svg height="200%" viewBox="0 20 550 170" preserveAspectRatio="xMinYMax">
 							<defs>
 								<CirclesGroupDef />
 								<radialGradient id="fade-left" cx="0.5" cy="0.5" r="0.5" fx="0.7" fy="0.7">
@@ -107,9 +107,9 @@ export default class Home extends Component {
 							</g>
 						</svg>
 					</div>
-					<img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/>
+					<a href='/'><img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/></a>
 					<div className="svg-container right">
-						<svg height="200%" viewBox="0 0 600 200" preserveAspectRatio="xMaxYMax">
+						<svg height="200%" viewBox="50 0 400 200" preserveAspectRatio="xMaxYMax">
 							{/*<rect x={0} y={0} width={600} height={200}
 								mask="url(#fade-right-mask)" fill="red"/>*/}
 							<g mask="url(#fade-right-mask)">
@@ -137,9 +137,9 @@ export default class Home extends Component {
 					<div className="content" id="scroll-container" ref={this.scrollContainer}>
 						<PageContent />
 						<Row>
-							<Col sm={4} style={{padding: '0px'}}><a href='https://city-of-kingston.github.io/mayors-innovation-challenge-2020/categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
-							<Col sm={4} style={{padding: '0px'}}><a href='http://localhost:3000/Workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
-							<Col sm={4} style={{padding: '0px'}}><a href='http://localhost:3000/SubmitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
+							<Col sm={4} style={{padding: '0px'}}><a href='/categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
+							<Col sm={4} style={{padding: '0px'}}><a href='/workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
+							<Col sm={4} style={{padding: '0px'}}><a href='/SubmitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
 						</Row>
 					</div>
 				</div>

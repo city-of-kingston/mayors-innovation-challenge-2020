@@ -80,6 +80,27 @@ p {
 			}
 		}
 
+		.workshop-content {
+			flex-grow: 1;
+			height: 100%;
+			overflow: auto;
+			box-sizing: border-box;
+			padding-left: 10vw;
+			padding-right: 10vw;
+			padding-top: 5vh;
+		}
+
+		.submit-proposal-content {
+			flex-grow: 1;
+			height: 100%;
+			overflow: auto;
+			box-sizing: border-box;
+			padding-left: 10vw;
+			padding-right: 10vw;
+			padding-top: 5vh;
+			padding-bottom: 5vh;
+		}
+
 		.sidebar {
 			display: flex;
 			flex-direction: row;
@@ -125,4 +146,15 @@ p {
 			}
 		}
 	}
+}
+
+h4, h3, h2 {
+	color: $brand-teal;
+	font-weight: 600;
+}
+
+.submit-proposal {
+	margin-inline-start: 35%;
+	background-color: $brand-red;
+	border-color: $brand-red;
 }

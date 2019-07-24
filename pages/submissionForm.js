@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
-import PageContent, { challenges } from '../content/categories.mdx';
-import { Accordion, AccordionItem } from '../components/Accordion';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/page-layout.scss';
-import '../css/accordion.scss';
-import { Row, Col } from 'reactstrap';
+import PageContent, { buttonText } from '../content/submissionForm.mdx';
+import {Button} from 'reactstrap';
 
 
-export default class Categories extends Component {
+export default class SubmitProposal extends Component {
 	constructor(props) {
 		super(props);
 	}
+
 
 	
 	render() {
 		return (
 			<div className="page-container">
-				<div className="header">
+<div className="header">
 					<div className="svg-container left">
 						<svg height="200%" viewBox="0 20 550 170" preserveAspectRatio="xMinYMax">
 							<defs>
@@ -66,18 +64,14 @@ export default class Categories extends Component {
 							<path d="M 75 10 C 40 210, 40 610, 75 810" fill="transparent" className="line"/>
 						</svg>
 					</div>
-					<div className="content" id="scroll-container" ref={this.scrollContainer}>
+					<div className="submit-proposal-content" id="scroll-container" ref={this.scrollContainer}>
 						<PageContent />
-						<Row style={{ position: 'relative', float: 'left', marginTop: '50px', left: '15%'}}>
-							<Col xs={2} style={{padding: '0px'}}><a href='/'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482928&t=1506624596877' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='/categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='/workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='/submitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
-						</Row>
-						
+                        <Button className='submit-proposal'> {buttonText} </Button>
+
 					</div>
 				</div>
 			</div>
 		);
 	}
 }
+

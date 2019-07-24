@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/page-layout.scss';
+import PageContent from '../content/workshops.mdx';
+
+import { Row, Col } from 'reactstrap';
 
 
 export default class Workshops extends Component {
@@ -14,7 +17,7 @@ export default class Workshops extends Component {
 			<div className="page-container">
 				<div className="header">
 					<div className="svg-container left">
-						<svg height="200%" viewBox="0 0 600 200" preserveAspectRatio="xMinYMax">
+						<svg height="200%" viewBox="0 20 550 170" preserveAspectRatio="xMinYMax">
 							<defs>
 								<CirclesGroupDef />
 								<radialGradient id="fade-left" cx="0.5" cy="0.5" r="0.5" fx="0.7" fy="0.7">
@@ -39,9 +42,9 @@ export default class Workshops extends Component {
 							</g>
 						</svg>
 					</div>
-					<img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/>
+					<a href='/'><img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/></a>
 					<div className="svg-container right">
-						<svg height="200%" viewBox="0 0 600 200" preserveAspectRatio="xMaxYMax">
+						<svg height="200%" viewBox="50 0 400 200" preserveAspectRatio="xMaxYMax">
 							{/*<rect x={0} y={0} width={600} height={200}
 								mask="url(#fade-right-mask)" fill="red"/>*/}
 							<g mask="url(#fade-right-mask)">
@@ -60,9 +63,9 @@ export default class Workshops extends Component {
 							<path d="M 75 10 C 40 210, 40 610, 75 810" fill="transparent" className="line"/>
 						</svg>
 					</div>
-					<div className="content" id="scroll-container" ref={this.scrollContainer}>
-						{/* <PageContent /> */}
-						<h2>Workshops and Events</h2>
+					<div className="workshop-content" ref={this.scrollContainer}>
+								<PageContent />
+								<img src="static/MIC-Craig.jpg" width="100%" style={{paddingTop: "40px"}}/>
 					</div>
 				</div>
 			</div>
