@@ -70,9 +70,9 @@ export default class Categories extends Component {
 						<PageContent />
 						<Row style={{ position: 'relative', float: 'left', marginTop: '50px', left: '15%'}}>
 							<Col xs={2} style={{padding: '0px'}}><a href='/'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482928&t=1506624596877' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='/categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='/workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
-							<Col xs={2} style={{padding: '0px'}}><a href='/submitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
+							<Col xs={2} style={{padding: '0px'}}><a href='/mayors-innovation-challenge-2020/categories'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482929&t=1506624596964' width='100%'/></a></Col>
+							<Col xs={2} style={{padding: '0px'}}><a href='/mayors-innovation-challenge-2020/workshops'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482930&t=1506624597046' width='100%'/></a></Col>
+							<Col xs={2} style={{padding: '0px'}}><a href='/mayors-innovation-challenge-2020/submitProposal'><img src='https://www.cityofkingston.ca/image/journal/article?img_id=21482931&t=1506624597128' width='100%'/></a></Col>
 						</Row>
 						
 					</div>
