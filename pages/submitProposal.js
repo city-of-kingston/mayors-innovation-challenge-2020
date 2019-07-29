@@ -3,7 +3,7 @@ import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup'
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
 
-import NextLink from 'next/link';
+import NextLink from '../components/NextLink';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/page-layout.scss';

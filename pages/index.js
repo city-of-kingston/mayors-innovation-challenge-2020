@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link, Element, Events } from 'react-scroll';
 import ScrollTrigger from '../components/ScrollTrigger';
-import NextLink from 'next/link';
+import NextLink from '../components/NextLink';
 
 import PageContent, { bindScrollTriggerCallback, headers } from '../content/index.mdx';
 import Header from '../components/Header';

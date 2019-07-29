@@ -1,5 +1,5 @@
 import React from 'react';
-import NextLink from 'next/link';
+import NextLink from '../components/NextLink';
 
 const NavItems = ({ active }) => (
 	<div className="nav-items">

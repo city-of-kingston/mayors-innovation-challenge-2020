@@ -1,5 +1,5 @@
 import React from 'react';
-import NextLink from 'next/link';
+import NextLink from '../components/NextLink';
 
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
 
