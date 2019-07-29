@@ -24,16 +24,6 @@ p {
 		justify-content: center;
 		position: relative;
 
-		&:after {
-			content: '';
-			position: absolute;
-			bottom: -20px;
-			height: 20px;
-			width: 100%;
-			background: linear-gradient(white, transparent);
-			pointer-events: none;
-		}
-
 		.svg-container {
 			flex-grow: 1;
 			position: relative;
@@ -55,6 +45,51 @@ p {
 
 		.logo {
 			max-height: 200px;
+		}
+	}
+
+	.nav-items {
+		width: 100%;
+		position: relative;
+
+		ul {
+			padding: 0;
+			margin-top: 10px;
+			width: 100%;
+			max-width: 500px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			list-style:none;
+			margin-left: auto;
+			margin-right: auto;
+
+			li {
+				a {
+					text-decoration: none;
+					color: #999;
+					font-weight: bold;
+				}
+
+				a:hover {
+					color: #555;
+				}
+
+				&.active > a {
+					color: $brand-red;
+				}
+			}
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: -20px;
+			height: 20px;
+			width: 100%;
+			background: linear-gradient(white, transparent);
+			pointer-events: none;
+			z-index: 2000;
 		}
 	}
 
