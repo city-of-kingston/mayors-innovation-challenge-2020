@@ -57,10 +57,13 @@ p {
 	.nav-items {
 		width: 100%;
 		position: relative;
+		
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 
 		ul {
 			padding: 0;
-			margin-top: 10px;
+			margin: 0;
 			width: 100%;
 			max-width: 500px;
 			display: flex;
@@ -75,6 +78,8 @@ p {
 					text-decoration: none;
 					color: #999;
 					font-weight: bold;
+					padding-top: 1rem;
+					padding-bottom: 1rem;
 				}
 
 				a:hover {
@@ -93,7 +98,7 @@ p {
 			bottom: -20px;
 			height: 20px;
 			width: 100%;
-			background: linear-gradient(white, transparent);
+			background: linear-gradient(white, rgba(255,255,255,0));
 			pointer-events: none;
 			z-index: 2000;
 		}
