@@ -39,10 +39,12 @@ p {
       max-height: 200px; }
   .page-container .nav-items {
     width: 100%;
-    position: relative; }
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
     .page-container .nav-items ul {
       padding: 0;
-      margin-top: 10px;
+      margin: 0;
       width: 100%;
       max-width: 500px;
       display: flex;
@@ -54,7 +56,9 @@ p {
       .page-container .nav-items ul li a {
         text-decoration: none;
         color: #999;
-        font-weight: bold; }
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
       .page-container .nav-items ul li a:hover {
         color: #555; }
       .page-container .nav-items ul li.active > a {
@@ -65,7 +69,7 @@ p {
       bottom: -20px;
       height: 20px;
       width: 100%;
-      background: linear-gradient(white, transparent);
+      background: linear-gradient(white, rgba(255, 255, 255, 0));
       pointer-events: none;
       z-index: 2000; }
   .page-container .content-container {
