@@ -8,7 +8,6 @@ script:
   - npm run build
   - npm run export
   - touch out/.nojekyll
-  - mv out/static/MIC-Favicon.ico out/favicon.ico
 deploy:
   provider: pages
   skip_cleanup: true

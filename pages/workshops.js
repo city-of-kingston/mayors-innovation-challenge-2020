@@ -22,6 +22,8 @@ export default class Workshops extends Component {
 			<div className="page-container">
 				<Head>
 					<title>Workshops - Kingston Mayor's Innovation Challenge</title>
+					<link rel="icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
+					<link rel="shortcut icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
 				</Head>
 
 				<Header />
