@@ -219,6 +219,13 @@ h4, h3, h2 {
 	}
 }
 
+.zDog-animation-text {
+	text-align: center;
+	font-style: italic;
+	font-weight: 700;
+	color: #999;
+}
+
 @include media-breakpoint-down(md) {
 	.page-container {
 		.content-container {
