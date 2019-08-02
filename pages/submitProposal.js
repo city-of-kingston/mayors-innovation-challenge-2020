@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Head from 'next/head';
+
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
@@ -15,12 +17,14 @@ export default class SubmitProposal extends Component {
 	constructor(props) {
 		super(props);
 	}
-
-
 	
 	render() {
 		return (
 			<div className="page-container">
+				<Head>
+					<title>Submit - Kingston Mayor's Innovation Challenge</title>
+				</Head>
+
 				<Header />
 				<NavItems active='submit' />
 				<div className="content-container">

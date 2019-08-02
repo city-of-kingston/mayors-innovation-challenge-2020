@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link, Element, Events } from 'react-scroll';
+import Head from 'next/head';
+
 import ScrollTrigger from '../components/ScrollTrigger';
 import NextLink from '../components/NextLink';
 
@@ -82,6 +84,10 @@ export default class Home extends Component {
 	render() {
 		return (
 			<div className="page-container">
+				<Head>
+					<title>Kingston Mayor's Innovation Challenge</title>
+				</Head>
+
 				<Header />
 				<NavItems active='about' />
 				<div className="content-container">
