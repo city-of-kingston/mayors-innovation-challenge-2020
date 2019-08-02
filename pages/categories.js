@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Head from 'next/head';
+
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
 import PageContent, { challenges } from '../content/categories.mdx';
 
@@ -15,11 +17,14 @@ export default class Categories extends Component {
 	constructor(props) {
 		super(props);
 	}
-
 	
 	render() {
 		return (
 			<div className="page-container">
+				<Head>
+					<title>Categories - Kingston Mayor's Innovation Challenge</title>
+				</Head>
+
 				<Header />
 				<NavItems active='categories' />
 				<div className="content-container">

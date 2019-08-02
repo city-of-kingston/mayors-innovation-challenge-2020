@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Head from 'next/head';
+
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
@@ -12,12 +14,16 @@ import { Row, Col } from 'reactstrap';
 
 export default class Workshops extends Component {
 	constructor(props) {
-		super(props);}
-
+		super(props);
+	}
 	
 	render() {
 		return (
 			<div className="page-container">
+				<Head>
+					<title>Workshops - Kingston Mayor's Innovation Challenge</title>
+				</Head>
+
 				<Header />
 				<NavItems active='workshops' />
 				<div className="content-container">
