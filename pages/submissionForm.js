@@ -10,6 +10,11 @@ import '../css/page-layout.scss';
 import PageContent, { buttonText } from '../content/submissionForm.mdx';
 import {Button} from 'reactstrap';
 
+/**************************
+* NOTE: This page is unused because we opted to just have applicants
+*       submit their proposal directly to mic@cityofkingston.ca
+*
+***************************/
 
 export default class SubmitProposal extends Component {
 	constructor(props) {
