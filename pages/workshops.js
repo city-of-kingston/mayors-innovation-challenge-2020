@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 
-import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/page-layout.scss';
 import PageContent from '../content/workshops.mdx';
-
-import { Row, Col } from 'reactstrap';
 
 
 export default class Workshops extends Component {

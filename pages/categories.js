@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 
-import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
 import PageContent from '../content/categories.mdx';
 
 import Header from '../components/Header';
@@ -9,9 +8,6 @@ import NavItems from '../components/NavItems';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/page-layout.scss';
-import '../css/accordion.scss';
-import { Row, Col } from 'reactstrap';
-
 
 export default class Categories extends Component {
 	constructor(props) {
