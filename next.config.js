@@ -3,7 +3,7 @@ const withCSS = require('@zeit/next-css');
 const withMDX = require('@next/mdx')()
 
 module.exports = withMDX(withCSS(withSass({
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/mayors-innovation-challenge-2020' : '',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
     webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
         // config.module.rules.push({
         //     test: /\.yaml$/,
