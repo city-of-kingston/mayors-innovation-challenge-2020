@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/accordion.scss';
 
-
 const Accordion = ({ children }) => (
         <div className='wrapper'>
           <ul className='accordion-list'>
