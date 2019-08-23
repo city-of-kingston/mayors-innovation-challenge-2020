@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 
 import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup';
-import PageContent, { challenges } from '../content/categories.mdx';
+import PageContent from '../content/categories.mdx';
 
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
