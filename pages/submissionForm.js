@@ -5,8 +5,6 @@ import CirclesSvgGroup, { CirclesGroupDef } from '../components/CirclesSvgGroup'
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/page-layout.scss';
 import PageContent, { buttonText } from '../content/submissionForm.mdx';
 import {Button} from 'reactstrap';
 

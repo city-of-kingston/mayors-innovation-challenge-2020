@@ -6,9 +6,6 @@ import PageContent from '../content/categories.mdx';
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/page-layout.scss';
-
 export default class Categories extends Component {
 	constructor(props) {
 		super(props);

@@ -6,10 +6,7 @@ import NavItems from '../components/NavItems';
 
 import NextLink from '../components/NextLink';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/page-layout.scss';
-import PageContent, { buttonText } from '../content/submissionInformation.mdx';
-import { Button } from 'reactstrap';
+import PageContent from '../content/submissionInformation.mdx';
 
 
 export default class SubmitProposal extends Component {
@@ -40,7 +37,6 @@ export default class SubmitProposal extends Component {
 					</div>
 					<div className="submit-proposal-content" id="scroll-container" ref={this.scrollContainer}>
 						<PageContent />
-						{/*<NextLink href='/submissionForm'><Button className="submit-proposal"> {buttonText} </Button></NextLink>*/}
 					</div>
 				</div>
 			</div>

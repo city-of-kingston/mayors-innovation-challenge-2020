@@ -9,12 +9,6 @@ import PageContent, { bindScrollTriggerCallback, headers } from '../content/inde
 import Header from '../components/Header';
 import NavItems from '../components/NavItems';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/page-layout.scss';
-import { Row, Col } from 'reactstrap';
-
-
-
 export default class Home extends Component {
 	constructor(props) {
 		super(props);
