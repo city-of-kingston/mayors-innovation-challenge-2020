@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { Link, Element, Events } from 'react-scroll';
-import Head from 'next/head';
 
 import ScrollTrigger from '../components/ScrollTrigger';
 import NextLink from '../components/NextLink';
 
 import PageContent, { bindScrollTriggerCallback, headers } from '../content/index.mdx';
-import Header from '../components/Header';
-import NavItems from '../components/NavItems';
+import Layout from '../components/Layout';
 
 export default class Home extends Component {
 	constructor(props) {
@@ -77,15 +75,8 @@ export default class Home extends Component {
 
 	render() {
 		return (
-			<div className="page-container">
-				<Head>
-					<title>Kingston Mayor's Innovation Challenge</title>
-					<link rel="icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
-					<link rel="shortcut icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
-				</Head>
-
-				<Header />
-				<NavItems active='about' />
+			<Layout title="Kingston Mayor's Innovation Challenge"
+					activeNavItem="about">
 				<div className="content-container">
 					<div className="sidebar">
 						<ul className="links" style={{fontFamily: 'Arial', fontSize: '25px'}}>
@@ -106,7 +97,7 @@ export default class Home extends Component {
 						<PageContent />
 					</div>
 				</div>
-			</div>
+			</Layout>
 		);
 	}
 }

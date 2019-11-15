@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import Head from 'next/head';
-
-import Header from '../components/Header';
-import NavItems from '../components/NavItems';
-
-import NextLink from '../components/NextLink';
+import Layout from '../components/Layout';
 
 import PageContent from '../content/submissionInformation.mdx';
 
@@ -16,15 +11,8 @@ export default class SubmitProposal extends Component {
 	
 	render() {
 		return (
-			<div className="page-container">
-				<Head>
-					<title>Submit - Kingston Mayor's Innovation Challenge</title>
-					<link rel="icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
-					<link rel="shortcut icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
-				</Head>
-
-				<Header />
-				<NavItems active='submit' />
+			<Layout title="Submit a Proposal - Kingston Mayor's Innovation Challenge"
+				activeNavItem="submit">
 				<div className="content-container">
 					<div className="sidebar">
 						<ul className="links" style={{fontFamily: 'Arial', fontSize: '25px'}}>
@@ -39,7 +27,7 @@ export default class SubmitProposal extends Component {
 						<PageContent />
 					</div>
 				</div>
-			</div>
+			</Layout>
 		);
 	}
 }

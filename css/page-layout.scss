@@ -30,12 +30,17 @@ p {
 		// justify-content: space-between;
 		justify-content: space-evenly;
 		position: relative;
+		height: 20vh;
+		max-height: 25vw;
 
 		.svg-container {
 			flex-grow: 1;
 			max-width: 500px;
+			min-width: 100px;
 			position: relative;
-			overflow: hidden;
+			overflow: visible;
+			opacity: 0.5;
+			height: 100%;
 
 			svg {
 				position: absolute;
@@ -43,16 +48,29 @@ p {
 			}
 
 			&.left > svg {
-				right: 0;
+				right: -5em;
 			}
 
 			&.right > svg {
-				left: 0;
+				left: -5em;
 			}
 		}
 
-		.logo {
-			max-height: 200px;
+		.logo-container {
+			overflow: visible;
+			position: absolute;
+			width: 0; top: 0; bottom: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			img.logo {
+				height: 100%;
+				z-index: 10;
+				background: radial-gradient(white, white 50%, rgba(255,255,255,0) 100%);
+				padding-left: 50px;
+				padding-right: 50px;
+			}
 		}
 	}
 
@@ -112,6 +130,16 @@ p {
 		height: 0; // Fixes height expanding out of page
 		display: flex;
 		flex-direction: row;
+		position: relative;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0; left: 0; right: 0;
+			height: 1vh;
+			background: linear-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 0.2) 10%, rgba(0, 0, 0, 0));
+			pointer-events: none;
+		}
 
 		.content {
 			flex-grow: 1;
@@ -200,6 +228,10 @@ p {
 h4, h3, h2 {
 	color: $brand-teal;
 	font-weight: 600;
+}
+
+.next-link {
+	cursor: pointer;
 }
 
 .submit-proposal {

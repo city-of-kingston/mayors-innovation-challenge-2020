@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Head from 'next/head';
 
 import PageContent from '../content/categories.mdx';
 
-import Header from '../components/Header';
-import NavItems from '../components/NavItems';
+import Layout from '../components/Layout';
 
 export default class Categories extends Component {
 	constructor(props) {
@@ -13,15 +11,8 @@ export default class Categories extends Component {
 	
 	render() {
 		return (
-			<div className="page-container">
-				<Head>
-					<title>Categories - Kingston Mayor's Innovation Challenge</title>
-					<link rel="icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
-					<link rel="shortcut icon" href="static/MIC-Favicon.ico" type="image/x-icon" />
-				</Head>
-
-				<Header />
-				<NavItems active='categories' />
+			<Layout title="Categories - Kingston Mayor's Innovation Challenge"
+				activeNavItem="categories">
 				<div className="content-container">
 					<div className="sidebar">
 						<ul className="links" style={{fontFamily: 'Arial', fontSize: '25px'}}>
@@ -36,7 +27,7 @@ export default class Categories extends Component {
 						<PageContent />
 					</div>
 				</div>
-			</div>
+			</Layout>
 		);
 	}
 }

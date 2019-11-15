@@ -31,8 +31,9 @@ const Header = () => (
 				</g>
 			</svg>
 		</div>
-		<NextLink href="/index">
-			<a><img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/></a>
+		<NextLink href="/index" className="logo-container"
+			Element={(({ children, ...props }) => <span {...props}>{children}</span>)}>
+			<img src="static/MIC Logo.png" alt="Mayor's Innovation Challenge Logo" className="logo"/>
 		</NextLink>
 		<div className="svg-container right">
 			<svg height="200%" viewBox="50 0 400 200" preserveAspectRatio="xMaxYMax">
